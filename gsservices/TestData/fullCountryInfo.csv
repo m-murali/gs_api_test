@@ -1,0 +1,4 @@
+RowIndex,TestScenario_ID,TestScenario_DetailedDescription,sCountryISOCode,HttpStatus,sISOCode,sName,sCapitalCity,sPhoneCode,sContinentCode,sCurrencyISOCode,sCountryFlag,tLanguage_sISOCode,tLanguage_sName
+1,TC001_fullCountryInfo,Verifying full Country Info service without CountryISOCode,,200,,Country not found in the database,,,,,,,
+2,TC001_fullCountryInfo,Verifying full Country Info service with an invalid BLZCode,AA,200,,Country not found in the database,,,,,,,
+3,TC001_fullCountryInfo,Verifying get bank details service with valid CountryISOCode US,US,200,US,United States,Washington,1,AM,USD,http://www.oorsprong.org/WebSamples.CountryInfo/Images/USA.jpg,eng,English

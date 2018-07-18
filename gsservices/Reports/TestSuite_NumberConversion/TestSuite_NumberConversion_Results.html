@@ -1,0 +1,257 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Automated Test Execution Report</title>
+      <link rel="stylesheet" type="text/css" href="stylesheet/Stylesheet.css">
+   </head>
+   <body>
+      <table id="Logos">
+         <thead>
+            <tr class="content">
+               <th colspan="2" class="Logos">
+                  <div style="float:left"><img src="screenshots/Cigniti.png"></div>
+                  <div style="float:right"><img src="screenshots/Client.png"></div>
+               </th>
+               <th colspan="2" class="Logos"></th>
+            </tr>
+         </thead>
+      </table>
+      <table id="header">
+         <tr class="heading">
+            <th style="font-size:1.4em;" colspan="4">Automated Test Execution
+               							Results
+            </th>
+         </tr>
+         <tr class="subheading" bgcolor="#9acd32">
+            <td>Date and Time:</td>
+            <td>07/17/2018,  22:38:38</td>
+            <td>Suites Executed:</td>
+            <td>TestSuite_NumberConversion</td>
+         </tr>
+         <tr class="subheading" bgcolor="#9acd32">
+            <td colspan="3">Tests Executed:</td>
+            <td></td>
+         </tr>
+         <tr class="subheading" bgcolor="#9acd32">
+            <td colspan="3">
+               							Service EndPoint URL(s):
+               							<br>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso<br>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso<br>http://www.dataaccess.com/webservicesserver/numberconversion.wso<br>http://www.dataaccess.com/webservicesserver/numberconversion.wso<br>
+            </td>
+            <td style="text-align : center;" colspan="1"><img width="8%" title="Expand All" src="screenshots/expand.png" onclick="expandAll()"><img title="Collapse All" width="12%" src="screenshots/collapse.png" onclick="collapseAll()"><img title="Refresh" width="8%" src="screenshots/refresh.png" onclick="location.reload();"></td>
+         </tr>
+      </table>
+      <div id="main">
+         <table id="summaryTable" cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+            <tr class="heading">
+               <th width="30%">Test Case</th>
+               <th width="40%">Description</th>
+               <th width="15%">Status</th>
+               <th width="15%">Duration</th>
+            </tr>
+         </table>
+         <table id="footer">
+            <tfoot>
+               <tr class="heading">
+                  <th colspan="4">Total Duration In Seconds (Including Report
+                     									Creation) : 179
+                  </th>
+               </tr>
+               <tr class="content">
+                  <td class="pass">Tests Passed:</td>
+                  <td class="pass"> 2</td>
+                  <td class="fail">Tests Failed:</td>
+                  <td class="fail"> 2</td>
+               </tr>
+               <tr class="powered">
+                  <td style="text-align: right; border: 0px solid rgb(77, 124, 123); padding: 0px; background: none repeat scroll 0% 0% rgb(189, 189, 189); font-size: x-small; font-style: italic;" colspan="6"> Automated Test Execution Reports, powered by Cigniti</td>
+               </tr>
+            </tfoot>
+         </table>
+      </div>
+      <div id="details" style="display:none">
+         <table id="detailsTable" cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%" style="">
+            <tr class="heading" style="display:none">
+               <th style="width:10%">Step</th>
+               <th style="width:80%">Description</th>
+               <th style="width:5%">Status</th>
+               <th style="width:5%">TimeStamp</th>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td target="TC001_numberToWords" bgcolor="#CEF6EC" style="text-align : left" colspan="6" title="Nested Diagnostic Context" status="passed"> Iteration 1 Verifying number to words service without number</td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">setup</td>
+               <td title="Step Description" style="text-align : left; color : red;"> </td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:37</span></td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">numberToWords Request</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span><textarea title="REQUEST" rows="20" style="width: 50%;">POST http://www.dataaccess.com/webservicesserver/numberconversion.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 306&#xD;
+Host: www.dataaccess.com&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+</textarea><textarea title="RESPONSE" rows="20" style="width: 50%;"> HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.0&#xD;
+Web-Service: DataFlex 18.1&#xD;
+Access-Control-Allow-Origin: http://www.dataaccess.com&#xD;
+Access-Control-Allow-Methods: GET, POST&#xD;
+Access-Control-Allow-Headers: content-type&#xD;
+Access-Control-Allow-Credentials: true&#xD;
+Strict-Transport-Security: max-age=31536000&#xD;
+Date: Wed, 18 Jul 2018 03:38:10 GMT&#xD;
+Content-Length: 306&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/"&gt;&#xD;
+      &lt;m:NumberToWordsResult&gt;zero&lt;/m:NumberToWordsResult&gt;&#xD;
+    &lt;/m:NumberToWordsResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</textarea></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:37</span></td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">Teardown</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:37</span></td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td target="TC001_numberToWords" bgcolor="#CEF6EC" style="text-align : left" colspan="6" title="Nested Diagnostic Context" status="passed"> Iteration 2 Verifying number to words service with an invalid number</td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">setup</td>
+               <td title="Step Description" style="text-align : left; color : red;"> </td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:37</span></td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">numberToWords Request</td>
+               <td title="Step Description" style="text-align : left"><span class="failed">[XPath Match] XPathContains comparison failed for path [declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+                     declare namespace m='http://www.dataaccess.com/webservicesserver/';
+                     //m:NumberToWordsResult], expecting [], actual was [four hundred and sixty seven thousand three hundred and twenty two]<br>
+                     </span><textarea title="REQUEST" rows="20" style="width: 50%;">POST http://www.dataaccess.com/webservicesserver/numberconversion.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 308&#xD;
+Host: www.dataaccess.com&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+</textarea><textarea title="RESPONSE" rows="20" style="width: 50%;"> HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.0&#xD;
+Web-Service: DataFlex 18.1&#xD;
+Access-Control-Allow-Origin: http://www.dataaccess.com&#xD;
+Access-Control-Allow-Methods: GET, POST&#xD;
+Access-Control-Allow-Headers: content-type&#xD;
+Access-Control-Allow-Credentials: true&#xD;
+Strict-Transport-Security: max-age=31536000&#xD;
+Date: Wed, 18 Jul 2018 03:38:10 GMT&#xD;
+Content-Length: 346&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/"&gt;&#xD;
+      &lt;m:NumberToWordsResult&gt;four hundred and sixty seven thousand three hundred and twenty two &lt;/m:NumberToWordsResult&gt;&#xD;
+    &lt;/m:NumberToWordsResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</textarea></td>
+               <td title="failed Step" class="failed" style="text-align: center;"><font color="green"><img src="screenshots/failed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:37</span></td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">Teardown</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:37</span></td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td target="TC001_numberToWords" bgcolor="#CEF6EC" style="text-align : left" colspan="6" title="Nested Diagnostic Context" status="passed"> Iteration 3 Verifying number to words service with valid number</td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">setup</td>
+               <td title="Step Description" style="text-align : left; color : red;"> </td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:37</span></td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">numberToWords Request</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span><textarea title="REQUEST" rows="20" style="width: 50%;">POST http://www.dataaccess.com/webservicesserver/numberconversion.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 308&#xD;
+Host: www.dataaccess.com&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+</textarea><textarea title="RESPONSE" rows="20" style="width: 50%;"> HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.0&#xD;
+Web-Service: DataFlex 18.1&#xD;
+Access-Control-Allow-Origin: http://www.dataaccess.com&#xD;
+Access-Control-Allow-Methods: GET, POST&#xD;
+Access-Control-Allow-Headers: content-type&#xD;
+Access-Control-Allow-Credentials: true&#xD;
+Strict-Transport-Security: max-age=31536000&#xD;
+Date: Wed, 18 Jul 2018 03:38:10 GMT&#xD;
+Content-Length: 308&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/"&gt;&#xD;
+      &lt;m:NumberToWordsResult&gt;eleven &lt;/m:NumberToWordsResult&gt;&#xD;
+    &lt;/m:NumberToWordsResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</textarea></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:37</span></td>
+            </tr>
+            <tr class="TC001_numberToWords" style="display:none">
+               <td title="Function Name" style="text-align : left;">Teardown</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:38:38</span></td>
+            </tr>
+         </table>
+         <table id="footer2">
+            <tfoot>
+               <tr class="heading">
+                  <th colspan="6">Total Duration In Seconds (Including Report
+                     									Creation) : 179
+                  </th>
+               </tr>
+               <tr class="content">
+                  <td class="executed">Total Iterations:</td>
+                  <td class="executed"> 5</td>
+                  <td class="pass">Iterations Passed:</td>
+                  <td class="pass"> 2</td>
+                  <td class="fail">Iterations Failed:</td>
+                  <td class="fail"> 2</td>
+               </tr>
+            </tfoot>
+         </table>
+      </div><script type="text/javascript" src="scripts/script.js"></script></body>
+</html>

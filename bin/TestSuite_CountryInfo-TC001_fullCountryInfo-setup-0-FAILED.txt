@@ -1,0 +1,79 @@
+Status: FAILED
+Time Taken: 30
+Size: 0
+Timestamp: Tue Jul 17 22:36:24 CDT 2018
+TestStep: setup
+Error:org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 6: unable to resolve class com.cigniti.soap.ui.core.TestCaseScripts
+ @ line 6, column 1.
+   import com.cigniti.soap.ui.core.TestCaseScripts;
+   ^
+org.codehaus.groovy.syntax.SyntaxException: unable to resolve class com.cigniti.soap.ui.core.TestCaseScripts
+ @ line 6, column 1.
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.addError(ClassCodeVisitorSupport.java:149)
+	at org.codehaus.groovy.control.ResolveVisitor.visitClass(ResolveVisitor.java:1225)
+	at org.codehaus.groovy.control.ResolveVisitor.startResolving(ResolveVisitor.java:178)
+	at org.codehaus.groovy.control.CompilationUnit$11.call(CompilationUnit.java:651)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:931)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:542)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:694)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:706)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:742)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:733)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:136)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:87)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+1 error
+
+
+----------------- Messages ------------------------------
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 6: unable to resolve class com.cigniti.soap.ui.core.TestCaseScripts
+ @ line 6, column 1.
+   import com.cigniti.soap.ui.core.TestCaseScripts;
+   ^
+org.codehaus.groovy.syntax.SyntaxException: unable to resolve class com.cigniti.soap.ui.core.TestCaseScripts
+ @ line 6, column 1.
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.addError(ClassCodeVisitorSupport.java:149)
+	at org.codehaus.groovy.control.ResolveVisitor.visitClass(ResolveVisitor.java:1225)
+	at org.codehaus.groovy.control.ResolveVisitor.startResolving(ResolveVisitor.java:178)
+	at org.codehaus.groovy.control.CompilationUnit$11.call(CompilationUnit.java:651)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:931)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:542)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:694)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:706)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:742)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:733)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:136)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:87)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+1 error
+

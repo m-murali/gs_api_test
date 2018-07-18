@@ -1,0 +1,203 @@
+
+<Reports>
+    <TestExecutionSummary>
+        <DateAndTime>07/17/2018,  22:39:43</DateAndTime>
+        <SuiteExecuted>TestSuite_CountryInfo</SuiteExecuted>
+        <TestExecuted></TestExecuted>
+        <ServiceEndPoint>&lt;br&gt;http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso&lt;br&gt;http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso&lt;br&gt;http://www.dataaccess.com/webservicesserver/numberconversion.wso&lt;br&gt;http://www.dataaccess.com/webservicesserver/numberconversion.wso&lt;br&gt;</ServiceEndPoint>
+    </TestExecutionSummary>
+    <Testcases>
+        <Testcase>
+            <Name>TC001_fullCountryInfo</Name>
+            <Description>testcase 1</Description>
+            <Status>finished</Status>
+            <Duration></Duration>
+            <Steps>
+                <Step>
+                    <Name>setup- Iteration 1 Verifying full Country Info service without CountryISOCode</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:40</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Enable/Disable Assertion-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:40</Timestamp>
+                </Step>
+                <Step>
+                    <Name>fullCountryInfo Request-</Name>
+                    <Description> REQUEST:POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 331&#xD;
+Host: webservices.oorsprong.org&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+RESPONSE: HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.5&#xD;
+Web-Service: DataFlex 18.2&#xD;
+Date: Wed, 18 Jul 2018 03:39:14 GMT&#xD;
+Content-Length: 431&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo"&gt;&#xD;
+      &lt;m:FullCountryInfoResult&gt;&#xD;
+        &lt;m:sISOCode&gt;&lt;/m:sISOCode&gt;&#xD;
+        &lt;m:sName&gt;Country not found in the database&lt;/m:sName&gt;&#xD;
+        &lt;m:sCapitalCity&gt;&lt;/m:sCapitalCity&gt;&#xD;
+        &lt;m:sPhoneCode&gt;&lt;/m:sPhoneCode&gt;&#xD;
+        &lt;m:sContinentCode&gt;&lt;/m:sContinentCode&gt;&#xD;
+        &lt;m:sCurrencyISOCode&gt;&lt;/m:sCurrencyISOCode&gt;&#xD;
+        &lt;m:sCountryFlag&gt;&lt;/m:sCountryFlag&gt;&#xD;
+        &lt;m:Languages&gt;&#xD;
+        &lt;/m:Languages&gt;&#xD;
+      &lt;/m:FullCountryInfoResult&gt;&#xD;
+    &lt;/m:FullCountryInfoResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:40</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Teardown-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:41</Timestamp>
+                </Step>
+                <Step>
+                    <Name>setup- Iteration 2 Verifying full Country Info service with an invalid BLZCode</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:41</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Enable/Disable Assertion-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:41</Timestamp>
+                </Step>
+                <Step>
+                    <Name>fullCountryInfo Request-</Name>
+                    <Description> REQUEST:POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 333&#xD;
+Host: webservices.oorsprong.org&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+RESPONSE: HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.5&#xD;
+Web-Service: DataFlex 18.2&#xD;
+Date: Wed, 18 Jul 2018 03:39:14 GMT&#xD;
+Content-Length: 431&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo"&gt;&#xD;
+      &lt;m:FullCountryInfoResult&gt;&#xD;
+        &lt;m:sISOCode&gt;&lt;/m:sISOCode&gt;&#xD;
+        &lt;m:sName&gt;Country not found in the database&lt;/m:sName&gt;&#xD;
+        &lt;m:sCapitalCity&gt;&lt;/m:sCapitalCity&gt;&#xD;
+        &lt;m:sPhoneCode&gt;&lt;/m:sPhoneCode&gt;&#xD;
+        &lt;m:sContinentCode&gt;&lt;/m:sContinentCode&gt;&#xD;
+        &lt;m:sCurrencyISOCode&gt;&lt;/m:sCurrencyISOCode&gt;&#xD;
+        &lt;m:sCountryFlag&gt;&lt;/m:sCountryFlag&gt;&#xD;
+        &lt;m:Languages&gt;&#xD;
+        &lt;/m:Languages&gt;&#xD;
+      &lt;/m:FullCountryInfoResult&gt;&#xD;
+    &lt;/m:FullCountryInfoResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:41</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Teardown-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:42</Timestamp>
+                </Step>
+                <Step>
+                    <Name>setup- Iteration 3 Verifying get bank details service with valid CountryISOCode US</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:42</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Enable/Disable Assertion-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:42</Timestamp>
+                </Step>
+                <Step>
+                    <Name>fullCountryInfo Request-</Name>
+                    <Description> REQUEST:POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 333&#xD;
+Host: webservices.oorsprong.org&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+RESPONSE: HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.5&#xD;
+Web-Service: DataFlex 18.2&#xD;
+Date: Wed, 18 Jul 2018 03:39:15 GMT&#xD;
+Content-Length: 499&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo"&gt;&#xD;
+      &lt;m:FullCountryInfoResult&gt;&#xD;
+        &lt;m:sISOCode&gt;US&lt;/m:sISOCode&gt;&#xD;
+        &lt;m:sName&gt;United States&lt;/m:sName&gt;&#xD;
+        &lt;m:sCapitalCity&gt;Washington&lt;/m:sCapitalCity&gt;&#xD;
+        &lt;m:sPhoneCode&gt;1&lt;/m:sPhoneCode&gt;&#xD;
+        &lt;m:sContinentCode&gt;AM&lt;/m:sContinentCode&gt;&#xD;
+        &lt;m:sCurrencyISOCode&gt;USD&lt;/m:sCurrencyISOCode&gt;&#xD;
+        &lt;m:sCountryFlag&gt;http://www.oorsprong.org/WebSamples.CountryInfo/Images/USA.jpg&lt;/m:sCountryFlag&gt;&#xD;
+        &lt;m:Languages&gt;&#xD;
+          &lt;m:tLanguage&gt;&#xD;
+            &lt;m:sISOCode&gt;eng&lt;/m:sISOCode&gt;&#xD;
+            &lt;m:sName&gt;English&lt;/m:sName&gt;&#xD;
+          &lt;/m:tLanguage&gt;&#xD;
+        &lt;/m:Languages&gt;&#xD;
+      &lt;/m:FullCountryInfoResult&gt;&#xD;
+    &lt;/m:FullCountryInfoResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:42</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Teardown-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:39:43</Timestamp>
+                </Step>
+            </Steps>
+        </Testcase>
+    </Testcases>
+</Reports>

@@ -1,0 +1,291 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Automated Test Execution Report</title>
+      <link rel="stylesheet" type="text/css" href="stylesheet/Stylesheet.css">
+   </head>
+   <body>
+      <table id="Logos">
+         <thead>
+            <tr class="content">
+               <th colspan="2" class="Logos">
+                  <div style="float:left"><img src="screenshots/Cigniti.png"></div>
+                  <div style="float:right"><img src="screenshots/Client.png"></div>
+               </th>
+               <th colspan="2" class="Logos"></th>
+            </tr>
+         </thead>
+      </table>
+      <table id="header">
+         <tr class="heading">
+            <th style="font-size:1.4em;" colspan="4">Automated Test Execution
+               							Results
+            </th>
+         </tr>
+         <tr class="subheading" bgcolor="#9acd32">
+            <td>Date and Time:</td>
+            <td>07/17/2018,  22:39:43</td>
+            <td>Suites Executed:</td>
+            <td>TestSuite_CountryInfo</td>
+         </tr>
+         <tr class="subheading" bgcolor="#9acd32">
+            <td colspan="3">Tests Executed:</td>
+            <td></td>
+         </tr>
+         <tr class="subheading" bgcolor="#9acd32">
+            <td colspan="3">
+               							Service EndPoint URL(s):
+               							<br>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso<br>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso<br>http://www.dataaccess.com/webservicesserver/numberconversion.wso<br>http://www.dataaccess.com/webservicesserver/numberconversion.wso<br>
+            </td>
+            <td style="text-align : center;" colspan="1"><img width="8%" title="Expand All" src="screenshots/expand.png" onclick="expandAll()"><img title="Collapse All" width="12%" src="screenshots/collapse.png" onclick="collapseAll()"><img title="Refresh" width="8%" src="screenshots/refresh.png" onclick="location.reload();"></td>
+         </tr>
+      </table>
+      <div id="main">
+         <table id="summaryTable" cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+            <tr class="heading">
+               <th width="30%">Test Case</th>
+               <th width="40%">Description</th>
+               <th width="15%">Status</th>
+               <th width="15%">Duration</th>
+            </tr>
+         </table>
+         <table id="footer">
+            <tfoot>
+               <tr class="heading">
+                  <th colspan="4">Total Duration In Seconds (Including Report
+                     									Creation) : 179
+                  </th>
+               </tr>
+               <tr class="content">
+                  <td class="pass">Tests Passed:</td>
+                  <td class="pass"> 2</td>
+                  <td class="fail">Tests Failed:</td>
+                  <td class="fail"> 2</td>
+               </tr>
+               <tr class="powered">
+                  <td style="text-align: right; border: 0px solid rgb(77, 124, 123); padding: 0px; background: none repeat scroll 0% 0% rgb(189, 189, 189); font-size: x-small; font-style: italic;" colspan="6"> Automated Test Execution Reports, powered by Cigniti</td>
+               </tr>
+            </tfoot>
+         </table>
+      </div>
+      <div id="details" style="display:none">
+         <table id="detailsTable" cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%" style="">
+            <tr class="heading" style="display:none">
+               <th style="width:10%">Step</th>
+               <th style="width:80%">Description</th>
+               <th style="width:5%">Status</th>
+               <th style="width:5%">TimeStamp</th>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td target="TC001_fullCountryInfo" bgcolor="#CEF6EC" style="text-align : left" colspan="6" title="Nested Diagnostic Context" status="passed"> Iteration 1 Verifying full Country Info service without CountryISOCode</td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">setup</td>
+               <td title="Step Description" style="text-align : left; color : red;"> </td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:40</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">Enable/Disable Assertion</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:40</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">fullCountryInfo Request</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span><textarea title="REQUEST" rows="20" style="width: 50%;">POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 331&#xD;
+Host: webservices.oorsprong.org&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+</textarea><textarea title="RESPONSE" rows="20" style="width: 50%;"> HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.5&#xD;
+Web-Service: DataFlex 18.2&#xD;
+Date: Wed, 18 Jul 2018 03:39:14 GMT&#xD;
+Content-Length: 431&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo"&gt;&#xD;
+      &lt;m:FullCountryInfoResult&gt;&#xD;
+        &lt;m:sISOCode&gt;&lt;/m:sISOCode&gt;&#xD;
+        &lt;m:sName&gt;Country not found in the database&lt;/m:sName&gt;&#xD;
+        &lt;m:sCapitalCity&gt;&lt;/m:sCapitalCity&gt;&#xD;
+        &lt;m:sPhoneCode&gt;&lt;/m:sPhoneCode&gt;&#xD;
+        &lt;m:sContinentCode&gt;&lt;/m:sContinentCode&gt;&#xD;
+        &lt;m:sCurrencyISOCode&gt;&lt;/m:sCurrencyISOCode&gt;&#xD;
+        &lt;m:sCountryFlag&gt;&lt;/m:sCountryFlag&gt;&#xD;
+        &lt;m:Languages&gt;&#xD;
+        &lt;/m:Languages&gt;&#xD;
+      &lt;/m:FullCountryInfoResult&gt;&#xD;
+    &lt;/m:FullCountryInfoResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</textarea></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:40</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">Teardown</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:41</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td target="TC001_fullCountryInfo" bgcolor="#CEF6EC" style="text-align : left" colspan="6" title="Nested Diagnostic Context" status="passed"> Iteration 2 Verifying full Country Info service with an invalid BLZCode</td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">setup</td>
+               <td title="Step Description" style="text-align : left; color : red;"> </td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:41</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">Enable/Disable Assertion</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:41</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">fullCountryInfo Request</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span><textarea title="REQUEST" rows="20" style="width: 50%;">POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 333&#xD;
+Host: webservices.oorsprong.org&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+</textarea><textarea title="RESPONSE" rows="20" style="width: 50%;"> HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.5&#xD;
+Web-Service: DataFlex 18.2&#xD;
+Date: Wed, 18 Jul 2018 03:39:14 GMT&#xD;
+Content-Length: 431&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo"&gt;&#xD;
+      &lt;m:FullCountryInfoResult&gt;&#xD;
+        &lt;m:sISOCode&gt;&lt;/m:sISOCode&gt;&#xD;
+        &lt;m:sName&gt;Country not found in the database&lt;/m:sName&gt;&#xD;
+        &lt;m:sCapitalCity&gt;&lt;/m:sCapitalCity&gt;&#xD;
+        &lt;m:sPhoneCode&gt;&lt;/m:sPhoneCode&gt;&#xD;
+        &lt;m:sContinentCode&gt;&lt;/m:sContinentCode&gt;&#xD;
+        &lt;m:sCurrencyISOCode&gt;&lt;/m:sCurrencyISOCode&gt;&#xD;
+        &lt;m:sCountryFlag&gt;&lt;/m:sCountryFlag&gt;&#xD;
+        &lt;m:Languages&gt;&#xD;
+        &lt;/m:Languages&gt;&#xD;
+      &lt;/m:FullCountryInfoResult&gt;&#xD;
+    &lt;/m:FullCountryInfoResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</textarea></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:41</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">Teardown</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:42</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td target="TC001_fullCountryInfo" bgcolor="#CEF6EC" style="text-align : left" colspan="6" title="Nested Diagnostic Context" status="passed"> Iteration 3 Verifying get bank details service with valid CountryISOCode US</td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">setup</td>
+               <td title="Step Description" style="text-align : left; color : red;"> </td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:42</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">Enable/Disable Assertion</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:42</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">fullCountryInfo Request</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span><textarea title="REQUEST" rows="20" style="width: 50%;">POST http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 333&#xD;
+Host: webservices.oorsprong.org&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+</textarea><textarea title="RESPONSE" rows="20" style="width: 50%;"> HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.5&#xD;
+Web-Service: DataFlex 18.2&#xD;
+Date: Wed, 18 Jul 2018 03:39:15 GMT&#xD;
+Content-Length: 499&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo"&gt;&#xD;
+      &lt;m:FullCountryInfoResult&gt;&#xD;
+        &lt;m:sISOCode&gt;US&lt;/m:sISOCode&gt;&#xD;
+        &lt;m:sName&gt;United States&lt;/m:sName&gt;&#xD;
+        &lt;m:sCapitalCity&gt;Washington&lt;/m:sCapitalCity&gt;&#xD;
+        &lt;m:sPhoneCode&gt;1&lt;/m:sPhoneCode&gt;&#xD;
+        &lt;m:sContinentCode&gt;AM&lt;/m:sContinentCode&gt;&#xD;
+        &lt;m:sCurrencyISOCode&gt;USD&lt;/m:sCurrencyISOCode&gt;&#xD;
+        &lt;m:sCountryFlag&gt;http://www.oorsprong.org/WebSamples.CountryInfo/Images/USA.jpg&lt;/m:sCountryFlag&gt;&#xD;
+        &lt;m:Languages&gt;&#xD;
+          &lt;m:tLanguage&gt;&#xD;
+            &lt;m:sISOCode&gt;eng&lt;/m:sISOCode&gt;&#xD;
+            &lt;m:sName&gt;English&lt;/m:sName&gt;&#xD;
+          &lt;/m:tLanguage&gt;&#xD;
+        &lt;/m:Languages&gt;&#xD;
+      &lt;/m:FullCountryInfoResult&gt;&#xD;
+    &lt;/m:FullCountryInfoResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</textarea></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:42</span></td>
+            </tr>
+            <tr class="TC001_fullCountryInfo" style="display:none">
+               <td title="Function Name" style="text-align : left;">Teardown</td>
+               <td title="Step Description" style="text-align : left"><span class="passed"> </span></td>
+               <td title="passed Step" class="passed" style="text-align: center;"><font color="green"><img src="screenshots/passed.ico" height="20" width="20"></font></td>
+               <td><span style="visibility:hidden;font-size : 0%;">07/17/2018</span><span> 22:39:43</span></td>
+            </tr>
+         </table>
+         <table id="footer2">
+            <tfoot>
+               <tr class="heading">
+                  <th colspan="6">Total Duration In Seconds (Including Report
+                     									Creation) : 179
+                  </th>
+               </tr>
+               <tr class="content">
+                  <td class="executed">Total Iterations:</td>
+                  <td class="executed"> 5</td>
+                  <td class="pass">Iterations Passed:</td>
+                  <td class="pass"> 2</td>
+                  <td class="fail">Iterations Failed:</td>
+                  <td class="fail"> 2</td>
+               </tr>
+            </tfoot>
+         </table>
+      </div><script type="text/javascript" src="scripts/script.js"></script></body>
+</html>

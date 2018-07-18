@@ -1,0 +1,58 @@
+Status: FAILED
+Time Taken: 85
+Size: 399
+Timestamp: Tue Jul 17 22:38:37 CDT 2018
+TestStep: numberToWords Request
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains comparison failed for path [declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+declare namespace m='http://www.dataaccess.com/webservicesserver/';
+//m:NumberToWordsResult], expecting [], actual was [four hundred and sixty seven thousand three hundred and twenty two]
+
+----------------- Properties ------------------------------
+Endpoint: http://www.dataaccess.com/webservicesserver/numberconversion.wso
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : www.dataaccess.com
+Accept-Encoding : gzip,deflate
+Content-Length : 308
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.dataaccess.com/webservicesserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:NumberToWords>
+         <web:ubiNum>aa</web:ubiNum>
+      </web:NumberToWords>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Microsoft-IIS/8.0
+Access-Control-Allow-Origin : http://www.dataaccess.com
+Access-Control-Allow-Methods : GET, POST
+Web-Service : DataFlex 18.1
+Access-Control-Allow-Headers : content-type
+Date : Wed, 18 Jul 2018 03:38:10 GMT
+Strict-Transport-Security : max-age=31536000
+Cache-Control : private, max-age=0
+Access-Control-Allow-Credentials : true
+Content-Encoding : gzip
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Content-Length : 346
+Content-Type : text/xml; charset=utf-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+         <m:NumberToWordsResult>four hundred and sixty seven thousand three hundred and twenty two</m:NumberToWordsResult>
+      </m:NumberToWordsResponse>
+   </soap:Body>
+</soap:Envelope>

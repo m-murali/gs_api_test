@@ -1,0 +1,168 @@
+
+<Reports>
+    <TestExecutionSummary>
+        <DateAndTime>07/17/2018,  22:38:38</DateAndTime>
+        <SuiteExecuted>TestSuite_NumberConversion</SuiteExecuted>
+        <TestExecuted></TestExecuted>
+        <ServiceEndPoint>&lt;br&gt;http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso&lt;br&gt;http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso&lt;br&gt;http://www.dataaccess.com/webservicesserver/numberconversion.wso&lt;br&gt;http://www.dataaccess.com/webservicesserver/numberconversion.wso&lt;br&gt;</ServiceEndPoint>
+    </TestExecutionSummary>
+    <Testcases>
+        <Testcase>
+            <Name>TC001_numberToWords</Name>
+            <Description>testcase 1</Description>
+            <Status>failed</Status>
+            <Duration></Duration>
+            <Steps>
+                <Step>
+                    <Name>setup- Iteration 1 Verifying number to words service without number</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:38:37</Timestamp>
+                </Step>
+                <Step>
+                    <Name>numberToWords Request-</Name>
+                    <Description> REQUEST:POST http://www.dataaccess.com/webservicesserver/numberconversion.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 306&#xD;
+Host: www.dataaccess.com&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+RESPONSE: HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.0&#xD;
+Web-Service: DataFlex 18.1&#xD;
+Access-Control-Allow-Origin: http://www.dataaccess.com&#xD;
+Access-Control-Allow-Methods: GET, POST&#xD;
+Access-Control-Allow-Headers: content-type&#xD;
+Access-Control-Allow-Credentials: true&#xD;
+Strict-Transport-Security: max-age=31536000&#xD;
+Date: Wed, 18 Jul 2018 03:38:10 GMT&#xD;
+Content-Length: 306&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/"&gt;&#xD;
+      &lt;m:NumberToWordsResult&gt;zero&lt;/m:NumberToWordsResult&gt;&#xD;
+    &lt;/m:NumberToWordsResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:38:37</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Teardown-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:38:37</Timestamp>
+                </Step>
+                <Step>
+                    <Name>setup- Iteration 2 Verifying number to words service with an invalid number</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:38:37</Timestamp>
+                </Step>
+                <Step>
+                    <Name>numberToWords Request-</Name>
+                    <Description>[XPath Match] XPathContains comparison failed for path [declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+declare namespace m='http://www.dataaccess.com/webservicesserver/';
+//m:NumberToWordsResult], expecting [], actual was [four hundred and sixty seven thousand three hundred and twenty two]&lt;br&gt; REQUEST:POST http://www.dataaccess.com/webservicesserver/numberconversion.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 308&#xD;
+Host: www.dataaccess.com&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+RESPONSE: HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.0&#xD;
+Web-Service: DataFlex 18.1&#xD;
+Access-Control-Allow-Origin: http://www.dataaccess.com&#xD;
+Access-Control-Allow-Methods: GET, POST&#xD;
+Access-Control-Allow-Headers: content-type&#xD;
+Access-Control-Allow-Credentials: true&#xD;
+Strict-Transport-Security: max-age=31536000&#xD;
+Date: Wed, 18 Jul 2018 03:38:10 GMT&#xD;
+Content-Length: 346&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/"&gt;&#xD;
+      &lt;m:NumberToWordsResult&gt;four hundred and sixty seven thousand three hundred and twenty two &lt;/m:NumberToWordsResult&gt;&#xD;
+    &lt;/m:NumberToWordsResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</Description>
+                    <Status>failed</Status>
+                    <Timestamp>07/17/2018AND 22:38:37</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Teardown-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:38:37</Timestamp>
+                </Step>
+                <Step>
+                    <Name>setup- Iteration 3 Verifying number to words service with valid number</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:38:37</Timestamp>
+                </Step>
+                <Step>
+                    <Name>numberToWords Request-</Name>
+                    <Description> REQUEST:POST http://www.dataaccess.com/webservicesserver/numberconversion.wso HTTP/1.1&#xD;
+Accept-Encoding: gzip,deflate&#xD;
+Content-Type: text/xml;charset=UTF-8&#xD;
+SOAPAction: ""&#xD;
+Content-Length: 308&#xD;
+Host: www.dataaccess.com&#xD;
+Connection: Keep-Alive&#xD;
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)&#xD;
+&#xD;
+RESPONSE: HTTP/1.1 200 OK&#xD;
+Cache-Control: private, max-age=0&#xD;
+Content-Type: text/xml; charset=utf-8&#xD;
+Content-Encoding: gzip&#xD;
+Vary: Accept-Encoding&#xD;
+Server: Microsoft-IIS/8.0&#xD;
+Web-Service: DataFlex 18.1&#xD;
+Access-Control-Allow-Origin: http://www.dataaccess.com&#xD;
+Access-Control-Allow-Methods: GET, POST&#xD;
+Access-Control-Allow-Headers: content-type&#xD;
+Access-Control-Allow-Credentials: true&#xD;
+Strict-Transport-Security: max-age=31536000&#xD;
+Date: Wed, 18 Jul 2018 03:38:10 GMT&#xD;
+Content-Length: 308&#xD;
+&#xD;
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"&gt;&#xD;
+  &lt;soap:Body&gt;&#xD;
+    &lt;m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/"&gt;&#xD;
+      &lt;m:NumberToWordsResult&gt;eleven &lt;/m:NumberToWordsResult&gt;&#xD;
+    &lt;/m:NumberToWordsResponse&gt;&#xD;
+  &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:38:37</Timestamp>
+                </Step>
+                <Step>
+                    <Name>Teardown-</Name>
+                    <Description> REQUEST:</Description>
+                    <Status>passed</Status>
+                    <Timestamp>07/17/2018AND 22:38:38</Timestamp>
+                </Step>
+            </Steps>
+        </Testcase>
+    </Testcases>
+</Reports>

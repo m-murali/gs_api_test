@@ -1,0 +1,4 @@
+RowIndex,TestScenario_ID,TestScenario_DetailedDescription,ubiNum,HttpStatus,NumberToWordsResult
+1,TC001_numberToWords,Verifying number to words service without number,,200,zero
+2,TC001_numberToWords,Verifying number to words service with an invalid number,aa,200,
+3,TC001_numberToWords,Verifying number to words service with valid number,11,200,eleven

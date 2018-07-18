@@ -1,0 +1,25 @@
+2018-07-17 22:19:06,617 INFO  [log] Assertion XPath Match-sISOCode Enabled !!
+2018-07-17 22:19:06,620 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:19:59,642 INFO  [log] Assertion XPath Match-sISOCode Enabled !!
+2018-07-17 22:19:59,644 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:21:16,870 INFO  [log] Assertion XPath Match-sISOCode Enabled !!
+2018-07-17 22:21:16,890 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:22:51,460 INFO  [log] Assertion XPath Match-sISOCode Enabled !!
+2018-07-17 22:22:51,461 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:36:24,796 INFO  [log] Assertion XPath Match-sISOCode Enabled !!
+2018-07-17 22:36:24,796 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:38:08,333 INFO  [log] Assertion XPath Match-sISOCode Disabled !!
+2018-07-17 22:38:08,333 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:38:35,707 INFO  [log] Assertion XPath Match-sISOCode Disabled !!
+2018-07-17 22:38:35,707 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:38:36,233 INFO  [log] Assertion XPath Match-sISOCode Enabled !!
+2018-07-17 22:38:36,234 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:38:36,780 INFO  [log] true
+2018-07-17 22:38:38,167 INFO  [log] true
+2018-07-17 22:39:40,546 INFO  [log] Assertion XPath Match-sISOCode Disabled !!
+2018-07-17 22:39:40,548 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:39:41,990 INFO  [log] Assertion XPath Match-sISOCode Disabled !!
+2018-07-17 22:39:41,991 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:39:42,685 INFO  [log] Assertion XPath Match-sISOCode Enabled !!
+2018-07-17 22:39:42,686 INFO  [log] Assertion XPath Match-sName Enabled !!
+2018-07-17 22:39:43,404 INFO  [log] true
